@@ -5,5 +5,32 @@
   "dateOfBirth": "03/06/1986",
   "personalMobile": "crmepham@hotmail.co.uk",
   "personalEmail": "07786564022",
-  "shortBiography": "I enjoy creating dynamic, and feature-rich, mobile and web applications.<br> I have completed a BSc (Hons) in Applied Computing, in which I achieved a first class grade.<br> I am currently working as a Java Enterprise programmer in the East of England.<br>I am currently programming in Go, Java and Kotlin."
+  "shortBiography": "I enjoy creating dynamic, and feature-rich, mobile and web applications.<br> I have completed a BSc (Hons) in Applied Computing, in which I achieved a first class grade.<br> I am currently working as a Java Enterprise programmer in the East of England.<br>I am currently programming in Go, Java and Kotlin.",
+  "links" : [
+    {
+      "title": "Github",
+      "description": "My Github account.",
+      "uri": "https://github.com/crmepham"
+    },
+    {
+      "title": "LinkedIn",
+      "description": "My LinkedIn account.",
+      "uri": "https://www.linkedin.com/in/crmepham/"
+    },
+    {
+      "title": "StackOverflow",
+      "description": "My StackOverflow account.",
+      "uri": "https://stackoverflow.com/users/888990/crm"
+    },
+    {
+      "title": "Blog",
+      "description": "My Blog.",
+      "uri": "http://chrismepham.co.uk/blog/"
+    },
+    {
+      "title": "Login",
+      "description": "My server.",
+      "uri": "https://185.2.102.220:3001/login.htm"
+    }
+  ]
 }
