@@ -43,8 +43,6 @@ header {
   header {
     width: 100%;
   }
-  #profile-picture, #title {
-  }
   #profile-picture {
     float: none;
     margin: 0 auto;
