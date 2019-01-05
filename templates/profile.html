@@ -1,11 +1,13 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
+
   <meta charset="utf-8">
 
-  <title>Chris Mepham</title>
-  <meta name="description" content="The public profile of Christopher Mepham.">
+  <title>{{.FirstName}} {{.LastName}}</title>
+  <meta name="description" content="The public profile of {{.FirstName}} {{.LastName}}.">
   <meta name="author" content="Chris Mepham">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,6 +17,7 @@
 </head>
 
 <body>
+
   <header>
     <div id="profile-picture"></div>
     <div id="title">
@@ -25,18 +28,16 @@
 
   <div id="content-body">
     <p>{{.ShortBiography}}</p>
-    <p>{{.PersonalEmail}}</p>
-    <p>{{.PersonalMobile}}</p>
+    <p><img src="static/img/email.png" alt="Mobile phonenumber" class="icon"/> {{.PersonalMobile}}</p>
+    <p><img src="static/img/phone.png" alt="Email" class="icon"/> {{.PersonalEmail}}</p>
   </div>
 
   <footer>
-    <a href="https://github.com/final60">Github</a> •
-			<a href="https://www.linkedin.com/in/crmepham">LinkedIn</a> •
-			<a href="http://stackoverflow.com/users/888990/crm">Stack Overflow</a> •
-			<a href="http://chrismepham.co.uk/blog/">Blog</a> •
-			<a href="https://185.2.102.220:3001/login.htm">Login</a>
+    {{range $i, $el := .Links}}
+      {{if $i}}•{{end}} <a href="{{$el.URI}}">{{$el.Title}}</a>
+    {{end}}
   </footer>
 
-  <script src="static/js/scripts.js"></script>
 </body>
+
 </html>

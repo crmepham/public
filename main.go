@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -78,7 +77,6 @@ func loadPerson() {
 
 	defer resp.Body.Close()
 	json.NewDecoder(resp.Body).Decode(person)
-	fmt.Println(person.ShortBiography)
 }
 
 func setContentType(response http.ResponseWriter, request *http.Request) {

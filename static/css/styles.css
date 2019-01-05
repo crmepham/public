@@ -31,6 +31,11 @@ header {
   float: right;
   box-sizing: border-box;
 }
+.icon {
+  width: 17px;
+  position: relative;
+  top: 2px;
+}
 @media only screen and (max-width: 850px) {
   body {
     text-align: center;
