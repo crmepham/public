@@ -47,10 +47,17 @@ func main() {
 
 // The request handlers.
 func staticContentHandler(response http.ResponseWriter, request *http.Request) {
+	if isCached(response, request) {
+		response.WriteHeader(http.StatusNotModified)
+		return
+	}
+
 	setContentType(response, request)
 	path := request.URL.Path
 	data, err := ioutil.ReadFile(path[1:len(path)])
 	check(err)
+	cacheContent(response, request)
+
 	response.Write([]byte(data))
 }
 
@@ -69,6 +76,16 @@ func jsonHandler(response http.ResponseWriter, request *http.Request) {
 }
 
 // The utility methods.
+func isCached(response http.ResponseWriter, request *http.Request) bool {
+	key := request.Header.Get("If-None-Match")
+	return key != "" && strings.Contains(key, `"`+request.URL.Path+`"`)
+}
+
+func cacheContent(response http.ResponseWriter, request *http.Request) {
+	response.Header().Set("Etag", `"`+request.URL.Path+`"`)
+	response.Header().Set("Cache-Control", "max-age=2592000")
+}
+
 func loadPerson() {
 	resp, err := http.Get(meJSONURI)
 	if err != nil || resp.StatusCode != 200 {
