@@ -36,6 +36,13 @@ type Link struct {
 
 var person = &Person{}
 
+// Redirect to http://chrismepham.co.uk as preferred URL for SEO.
+func redirect(w http.ResponseWriter, r *http.Request) {
+	if strings.Contains(r.URL.RequestURI(), "www") {
+		http.Redirect(w, r, "http://chrismepham.co.uk", 301)
+	}
+}
+
 // The main method.
 func main() {
 	r := mux.NewRouter()
@@ -62,6 +69,7 @@ func staticContentHandler(response http.ResponseWriter, request *http.Request) {
 }
 
 func rootHandler(response http.ResponseWriter, request *http.Request) {
+	redirect(response, request)
 	setContentType(response, request)
 	temp, err := template.ParseFiles("templates/profile.html")
 	check(err)
