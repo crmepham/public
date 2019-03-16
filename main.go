@@ -69,6 +69,7 @@ func staticContentHandler(response http.ResponseWriter, request *http.Request) {
 }
 
 func rootHandler(response http.ResponseWriter, request *http.Request) {
+	response.Header().Set("Link", "http://chrismepham.co.uk")
 	redirect(response, request)
 	setContentType(response, request)
 	temp, err := template.ParseFiles("templates/profile.html")
