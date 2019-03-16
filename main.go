@@ -38,7 +38,7 @@ var person = &Person{}
 
 // Redirect to http://chrismepham.co.uk as preferred URL for SEO.
 func redirect(w http.ResponseWriter, r *http.Request) {
-	if strings.Contains(r.URL.RequestURI(), "www") {
+	if strings.Contains(r.Host, "www") {
 		http.Redirect(w, r, "http://chrismepham.co.uk", 301)
 	}
 }
