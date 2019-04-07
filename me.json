@@ -5,8 +5,10 @@
   "dateOfBirth": "03/06/1986",
   "personalMobile": "crmepham@hotmail.co.uk",
   "personalEmail": "07786564022",
+  "city": "Colchester",
+  "county": "Essex",
   "shortBiography": "I enjoy creating dynamic, and feature-rich, mobile and web applications.<br> I have completed a BSc (Hons) in Applied Computing, in which I achieved a first class grade.<br> I am currently working as a Java Enterprise programmer in the East of England.<br>I am currently programming in Go, Java and Kotlin.",
-  "links" : [
+  "links": [
     {
       "title": "Github",
       "description": "My Github account.",
@@ -31,6 +33,48 @@
       "title": "Login",
       "description": "My server.",
       "uri": "https://crm86.uk/home"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Java SE 8 Programmer I | 1Z0-808",
+      "date": "07/04/2019"
+    }
+  ],
+  "education": [
+    {
+      "name": "University of Suffolk",
+      "subject": "Applied Computing",
+      "level": "BSc (hons)"
+      "grade": "1st",
+      "from": "2013",
+      "to": "2016"
+    },
+    {
+      "name": "West Suffolk College",
+      "subject": "Information Technology",
+      "level": "BTEC Extended National Diploma"
+      "grade": "Triple Distinction",
+      "from": "2011",
+      "to": "2013"
+    }
+  ],
+  "employment": [
+    {
+      "company": "Cognitran",
+      "position": "Software Developer",
+      "website": "https://cognitran.com",
+      "from": "21/05/2018",
+      "to": "Present",
+      "note": "Technologies: Java 8, Spring, Spring Boot, Elastic search, Hibernate, JPA, Thymeleaf, MariaDB, Mockito, AWS integrations, continuous integration, Docker."
+    },
+    {
+      "company": "Realtime Despatch",
+      "position": "Junior Software Developer",
+      "website": "https://realtimedespatch.com",
+      "from": "01/07/2015",
+      "to": "11/05/2018",
+      "Technologies: Java 7, Hibernate, MariaDB, Spring, Jasper Reports, JUnit, JQuery, Courier integrations, Shopping cart integrations, Warehouse Management platform."
     }
   ]
 }
