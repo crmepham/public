@@ -1,10 +1,11 @@
 {
   "firstName": "Christopher",
   "lastName": "Mepham",
-  "jobTitle": "Software Development Engineer",
+  "jobTitle": "Technical Team Lead",
   "dateOfBirth": "03/06/1986",
-  "personalMobile": "crmepham@hotmail.co.uk",
+  "personalMobile": "chris@mepham.uk",
   "personalEmail": "07786564022",
+  "image": "", 
   "city": "Colchester",
   "county": "Essex",
   "shortBiography": "I enjoy creating dynamic, and feature-rich, mobile and web applications.<br> I have completed a BSc (Hons) in Applied Computing, in which I achieved a first class grade.<br> I am currently working as a Java Enterprise programmer in the East of England.<br>I am currently programming in Go, Java and Kotlin.",
@@ -23,16 +24,6 @@
       "title": "StackOverflow",
       "description": "My StackOverflow account.",
       "uri": "https://stackoverflow.com/users/888990/crm"
-    },
-    {
-      "title": "Notes",
-      "description": "My Notes.",
-      "uri": "https://crmnotes.uk"
-    },
-    {
-      "title": "Login",
-      "description": "My server.",
-      "uri": "https://crm86.uk/home"
     }
   ]
 }
