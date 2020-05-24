@@ -5,7 +5,7 @@
   "dateOfBirth": "03/06/1986",
   "personalMobile": "07786564022",
   "personalEmail": "chris@mepham.uk",
-  "image": "", 
+  "image": "https://i.imgur.com/4ojkF3e.jpg", 
   "city": "Colchester",
   "county": "Essex",
   "shortBiography": "I enjoy creating dynamic, and feature-rich, mobile and web applications.<br> I have completed a BSc (Hons) in Applied Computing, in which I achieved a first class grade.<br> I am currently working as a Java Enterprise programmer in the East of England.<br>I am currently programming in Go, Java and Kotlin.",
