@@ -15,21 +15,21 @@
       "title": "Github",
       "description": "My Github account.",
       "uri": "https://github.com/crmepham",
-      "color": "grey",
+      "colour": "grey",
       "icon": "github"
     },
     {
       "title": "LinkedIn",
       "description": "My LinkedIn account.",
       "uri": "https://www.linkedin.com/in/crmepham/",
-      "color": "blue",
+      "colour": "blue",
       "icon": "linkedin"
     },
     {
       "title": "StackOverflow",
       "description": "My StackOverflow account.",
       "uri": "https://stackoverflow.com/users/888990/crm",
-      "color": "orange",
+      "colour": "orange",
       "icon": "stack overflow"
     }
   ]
