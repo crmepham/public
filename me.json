@@ -31,6 +31,13 @@
       "uri": "https://stackoverflow.com/users/888990/crm",
       "colour": "orange",
       "icon": "stack overflow"
+    },
+    {
+      "title": "Blog",
+      "description": "My digital learnings.",
+      "uri": "https://crmepham.github.io/spring-boot-multi-thread-scheduling/",
+      "colour": "green",
+      "icon": "blogger"
     }
   ]
 }
