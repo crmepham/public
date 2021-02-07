@@ -43,8 +43,8 @@
       "title": "Dashboard",
       "description": "My dashboard.",
       "uri": "/dashboard.html",
-      "colour": "green",
-      "icon": "blogger"
+      "colour": "grey",
+      "icon": "list"
     }
   ]
 }
