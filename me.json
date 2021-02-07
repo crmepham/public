@@ -38,13 +38,6 @@
       "uri": "https://crmepham.github.io/spring-boot-multi-thread-scheduling/",
       "colour": "green",
       "icon": "blogger"
-    },
-    {
-      "title": "Dashboard",
-      "description": "My dashboard.",
-      "uri": "/dashboard.html",
-      "colour": "grey",
-      "icon": "table"
     }
   ]
 }
