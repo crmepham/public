@@ -44,7 +44,7 @@
       "description": "My dashboard.",
       "uri": "/dashboard.html",
       "colour": "grey",
-      "icon": "list"
+      "icon": "table"
     }
   ]
 }
