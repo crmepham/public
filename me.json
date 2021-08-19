@@ -40,6 +40,13 @@
       "icon": "blogger"
     },
     {
+      "title": "Strava",
+      "description": "My Strava account.",
+      "uri": "https://www.strava.com/athletes/2671752",
+      "colour": "orange",
+      "icon": "strava"
+    },
+    {
       "title": "Links",
       "description": "My Links.",
       "uri": "https://linkslist.app/aBkEq35",
