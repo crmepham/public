@@ -2,7 +2,6 @@
   "firstName": "Christopher",
   "lastName": "Mepham",
   "jobTitle": "Lead Software Developer",
-  "degree": "BSc Applied Computing, 1st class",
   "dateOfBirth": "03/06/1986",
   "image": "https://i.imgur.com/WAH8rFu.jpg",
   "shortBiography": "I enjoy creating dynamic, and feature-rich, mobile and web applications.<br> I have completed a BSc (Hons) in Applied Computing, in which I achieved a first class grade.<br> I am currently working as a Java Enterprise programmer in the East of England.<br>I am currently programming in Go, Java and Kotlin.",
@@ -53,6 +52,7 @@
       "title" : "BSc (hons) Applied Computing",
       "description" : "IT strategy and change, Network security, Software research and development, Advanced internet technologies.",
       "grade" : "First class",
+      "type" : "Degree",
       "fromYear" : "2013",
       "toYear" : "2016"
     },
@@ -60,6 +60,7 @@
       "title" : "BTEC Extended National Diploma in IT",
       "description" : "Computer systems, Software development and design, IT systems troubleshooting and repair, Procedural programming, Database design, Mathematics for IT practitioners, Website production.",
       "grade" : "Triple distinction",
+      "type" : "Extended National Diploma",
       "fromYear" : "2011",
       "toYear" : "2013"
     }
