@@ -4,12 +4,112 @@
   "jobTitle": "Lead Software Developer",
   "degree": "BSc Applied Computing, 1st class",
   "dateOfBirth": "03/06/1986",
-  "personalMobile": "07786564022",
-  "personalEmail": "chris@mepham.uk",
-  "image": "https://i.imgur.com/WAH8rFu.jpg", 
-  "city": "Colchester",
-  "county": "Essex",
+  "image": "https://i.imgur.com/WAH8rFu.jpg",
   "shortBiography": "I enjoy creating dynamic, and feature-rich, mobile and web applications.<br> I have completed a BSc (Hons) in Applied Computing, in which I achieved a first class grade.<br> I am currently working as a Java Enterprise programmer in the East of England.<br>I am currently programming in Go, Java and Kotlin.",
+  "contact" : {
+    "mobile" : "07786564022",
+    "email" : "chris@mepham.uk"
+  },
+  "addresses" : [
+    {
+      "line1" : "21 Derwent Way",
+      "line2" : "Great Notley",
+      "town" : "Braintree",
+      "county" : "Essex",
+      "postCode" : "CM777UH",
+      "current": true,
+      "fromMonth" : "December",
+      "fromYear" : "2021",
+      "toMonth" : "",
+      "toYear" : ""
+    },
+    {
+      "line1" : "29 Claremont Heights",
+      "line2" : "",
+      "town" : "Colchester",
+      "county" : "Essex",
+      "postCode" : "CO11ZU",
+      "current": false,
+      "fromMonth" : "November",
+      "fromYear" : "2017",
+      "toMonth" : "December",
+      "toYear" : "2021"
+    },
+    {
+      "line1" : "16a Church Street",
+      "line2" : "",
+      "town" : "Woodbridge",
+      "county" : "Suffolk",
+      "postCode" : "IP121DH",
+      "current": false,
+      "fromMonth" : "November",
+      "fromYear" : "2016",
+      "toMonth" : "November",
+      "toYear" : "2017"
+    }
+  ],
+  "education" : [
+    {
+      "title" : "BSc (hons) Applied Computing",
+      "description" : "IT strategy and change, Network security, Software research and development, Advanced internet technologies.",
+      "grade" : "First class",
+      "fromYear" : "2013",
+      "toYear" : "2016"
+    },
+    {
+      "title" : "BTEC Extended National Diploma in IT",
+      "description" : "Computer systems, Software development and design, IT systems troubleshooting and repair, Procedural programming, Database design, Mathematics for IT practitioners, Website production.",
+      "grade" : "Triple distinction",
+      "fromYear" : "2011",
+      "toYear" : "2013"
+    }
+  ],
+  "jobs" : [
+    {
+      "position" : "Senior Software Developer",
+      "company" : "Global Relay",
+      "website" : "https://www.globalrelay.com",
+      "description" : "",
+      "fromMonth" : "September",
+      "fromYear" : "2022",
+      "toMonth" : "",
+      "toYear" : "",
+      "current" : true
+    },
+    {
+      "position" : "Lead Software Developer",
+      "company" : "Endsleigh insurance",
+      "website" : "https://www.endsleigh.co.uk",
+      "description" : "Hired a full team of backend developers and systems engineers; consisting of 4 juniors, 3 mid-level, 2 senior developers, and 2 senior system engineers. - Led the in-housing of all the backend development and systems infrastructure for the company’s legacy Rewards platform. - Led a complete re-write of the company’s core Rewards platform and led the delivery of this product to production for 2 of Britain's largest insurers; Morethan and Admiral. Skills gained: Java 11, Spring Boot 2, Zuul, Eureka, Microservices, Keycloak, Nexus, Jenkins, AWS, Terraform, Ansible, CI/CD.",
+      "fromMonth" : "August",
+      "fromYear" : "2019",
+      "toMonth" : "July",
+      "toYear" : "2022",
+      "current" : false
+    },
+    {
+      "position" : "Software Developer",
+      "company" : "Cognitran",
+      "website" : "https://cognitran.com",
+      "description" : "Lead developer on a new vehicle parts ordering system for Aston Martin. Developing new features and fixing existing bugs in core vehicle management and document authoring products. Skills gained: Strong working knowledge of Elasticsearch, Maven, Gitflow and Structs 2.",
+      "fromMonth" : "July",
+      "fromYear" : "2018",
+      "toMonth" : "July",
+      "toYear" : "2019",
+      "current" : false
+    },
+    {
+      "position" : "Junior Software Developer",
+      "company" : "Realtime Despatch Limited",
+      "website" : "https://orderflow-wms.co.uk",
+      "description" : "Working within a small start-up development team. A typical week consists of daily stand-up meetings to discuss progress, acknowledging and progressing development tickets, developing enhancements to the core enterprise systems and performing regular code reviews. Skills gained: The ability to clearly and concisely express my opinion with regards to current development tasks and meetings. Knowledge of core enterprise technologies, including Spring, Hibernate and Junit. Improved Agile-based test-driven programming and code reviewing techniques.",
+      "fromMonth" : "July",
+      "fromYear" : "2015",
+      "toMonth" : "July",
+      "toYear" : "2018",
+      "current" : false
+    }
+  ],
   "links": [
     {
       "title": "Github",
@@ -33,9 +133,16 @@
       "icon": "stack overflow"
     },
     {
-      "title": "Blog",
+      "title": "Tech Blog",
       "description": "My digital learnings.",
       "uri": "https://crmepham.github.io",
+      "colour": "green",
+      "icon": "blogger"
+    },
+    {
+      "title": "Running far, race reviews",
+      "description": "My experiences before, during and after running events.",
+      "uri": "https://run.mepham.uk/",
       "colour": "green",
       "icon": "blogger"
     },
